@@ -1,0 +1,79 @@
+Input,Output,SVG
+Create a rule that deletes horizontal lines.,"Since we want to delete a specific object, we should make a rule with the object on the left side and nothing on the right side, this will effectively delete object in question.
+Here we want to delete horizontal lines so we will put a horizontal line on the left side.","  <g id=""Shape_Machine"">
+    <g id=""Shape_Machine::hint"">
+      <path d=""M798.5987,2974.8145 L798.5987,2793.2166"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+      <path d=""M798.5987,2714.0781 L798.5987,2532.48"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    </g>
+  </g>
+  <text x=""774.8"" y=""2765"" font-family=""Courier New"" fill=""#000000"" font-size=""79.28"">→</text>
+  <circle cx=""411.6"" cy=""2975"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <circle cx=""1186"" cy=""2975"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <g id=""Black"">
+    <path d=""M325.1236,2765.0286 L497.98853,2765.0286"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+  </g>
+"
+Create a rule that takes a square and tiles it once horizontally.,"Since we want to tile a square horizontally, we will have to put the original square on the left side and the tiled copy of the square on the right side. This will make the square tiled horizontally.","<g id=""Shape_Machine"">
+    <g id=""Shape_Machine::hint"">
+      <path d=""M821.3726,484.65665 L821.3726,303.05862"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+      <path d=""M821.3726,745.3931 L821.3726,563.7951"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    </g>
+  </g>
+  <text x=""797.5"" y=""535.6"" font-family=""Courier New"" fill=""#000000"" font-size=""79.28"">→</text>
+  <circle cx=""434.3"" cy=""745.4"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <circle cx=""1208"" cy=""745.4"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <g id=""Black"">
+    <path d=""M1402.2206,600.2088 L1402.2206,471.00522"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1143.8135,600.2088 L1273.0171,600.2088 L1273.0171,471.00522 L1143.8135,471.00522 z"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1273.0171,600.2088 L1402.2206,600.2088"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1402.2206,471.00522 L1273.0171,471.00522"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M369.72818,600.2088 L498.93176,600.2088 L498.93176,471.00522 L369.72818,471.00522 z"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+  </g>
+  <circle cx=""498.9"" cy=""535.6"" r=""0.72"" stroke=""#000000"" stroke-width=""0.24"" fill=""#000000"" fill-opacity=""1"" />
+  <circle cx=""1338"" cy=""600.2"" r=""0.72"" stroke=""#000000"" stroke-width=""0.24"" fill=""#000000"" fill-opacity=""1"" />
+  <circle cx=""1208"" cy=""600.2"" r=""0.72"" stroke=""#000000"" stroke-width=""0.24"" fill=""#000000"" fill-opacity=""1"" />"
+Create a rule that takes a square and tiles it once vertically.,"Since we want to tile a square vertically, we will have to put the original square on the left side and the tiled copy of the square on the right side. This will make the square tiled vertically.","  <g id=""Shape_Machine"">
+    <g id=""Shape_Machine::hint"">
+      <path d=""M821.3726,1633.6794 L821.3726,1452.0814"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+      <path d=""M821.3726,1372.943 L821.3726,1191.345"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    </g>
+  </g>
+  <text x=""797.5"" y=""1424"" font-family=""Courier New"" fill=""#000000"" font-size=""79.28"">→</text>
+  <circle cx=""434.3"" cy=""1634"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <circle cx=""1208"" cy=""1634"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <g id=""Black"">
+    <path d=""M1143.8135,1374.2942 L1143.8135,1503.4977"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1143.8135,1503.4977 L1273.0171,1503.4977"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1143.8135,1374.2942 L1273.0171,1374.2942 L1273.0171,1245.0906 L1143.8135,1245.0906 z"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M369.72818,1374.2942 L498.93176,1374.2942 L498.93176,1245.0906 L369.72818,1245.0906 z"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1273.0171,1503.4977 L1273.0171,1374.2942"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+  </g>
+  <circle cx=""434.3"" cy=""1374"" r=""0.72"" stroke=""#000000"" stroke-width=""0.24"" fill=""#000000"" fill-opacity=""1"" />
+  <circle cx=""1208"" cy=""1503"" r=""0.72"" stroke=""#000000"" stroke-width=""0.24"" fill=""#000000"" fill-opacity=""1"" />"
+Create a rule that takes a line and duplicates it downwards.,"Since we want to duplicate a line downwards, we will start by having the line on the left side and two copies of the line on the right side. This should turn each line into two copies of the line.","<g id=""Shape_Machine"">
+    <g id=""Shape_Machine::hint"">
+      <path d=""M798.5987,2974.8145 L798.5987,2793.2166"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+      <path d=""M798.5987,2714.0781 L798.5987,2532.48"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    </g>
+  </g>
+  <text x=""774.8"" y=""2765"" font-family=""Courier New"" fill=""#000000"" font-size=""79.28"">→</text>
+  <circle cx=""411.6"" cy=""2975"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <circle cx=""1186"" cy=""2975"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <g id=""Black"">
+    <path d=""M1099.2089,2773.5322 L1272.0739,2773.5322"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M325.1236,2765.0286 L497.98853,2765.0286"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    <path d=""M1099.2089,2756.5244 L1272.0739,2756.5244"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+  </g>
+"
+Create a rule that deletes all green dots in the image.,"Normally these dots are used as markers during rule application but we need to delete them at the end of all the steps. To do this we will have a rule that turns all the green dots into nothing.
+We will make the left side of the rule, the green dot in question and the right side of the rule nothing.","  <g id=""Shape_Machine"">
+    <g id=""Shape_Machine::hint"">
+      <path d=""M798.5987,2200.7292 L798.5987,2019.1312"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+      <path d=""M798.5987,1939.9928 L798.5987,1758.3948"" stroke=""#000000"" stroke-width=""0.24"" stroke-linecap=""round"" stroke-linejoin=""round"" fill=""none"" />
+    </g>
+  </g>
+  <text x=""774.8"" y=""1991"" font-family=""Courier New"" fill=""#000000"" font-size=""79.28"">→</text>
+  <circle cx=""1186"" cy=""2201"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <circle cx=""411.6"" cy=""2201"" r=""0.72"" stroke=""#007F00"" stroke-width=""0.24"" fill=""#007F00"" fill-opacity=""1"" />
+  <circle cx=""411.6"" cy=""1991"" r=""0.72"" stroke=""#000000"" stroke-width=""0.24"" fill=""#000000"" fill-opacity=""1"" />
+"
